@@ -1,0 +1,12 @@
+# Project exclude paths
+/.gradle/
+/camera/build/
+/camera/build/classes/java/main/
+/command_table/build/
+/command_table/build/classes/java/main/
+/info_panel/build/
+/info_panel/build/classes/java/main/
+/launcher/build/
+/launcher/build/classes/java/main/
+/serial/build/
+/serial/build/classes/java/main/

@@ -1,0 +1,15 @@
+plugins {
+    id 'application'
+}
+
+mainClassName = 'hu.krisztiansipos.mam20.launcher.Main'
+
+ext.moduleName = 'launcher'
+
+dependencies {
+    implementation project(':info_panel')
+    implementation project(':serial')
+    implementation project(':camera')
+    implementation project(':command_table')
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}
